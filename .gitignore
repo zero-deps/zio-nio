@@ -1,0 +1,5 @@
+*.swp
+/.bsp/
+/.java-version
+target/
+.DS_Store
