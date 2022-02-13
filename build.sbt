@@ -6,8 +6,8 @@ lazy val zio_nio = project
       "dev.zio" %% "zio-test-sbt" % "1.0.10" % Test
     )
   , testFrameworks += new TestFramework("zio.test.sbt.ZTestFramework")
-  , scalaVersion := "3.1.0-RC2"
-  , crossScalaVersions := "3.1.0-RC2" :: "2.13.6" :: Nil
+  , scalaVersion := "3.1.1"
+  , crossScalaVersions := "3.1.1" :: "2.13.8" :: Nil
   , scalacOptions += "-nowarn"
   )
   .dependsOn(zio_nio_core)
@@ -21,8 +21,8 @@ lazy val zio_nio_core = project
     , "dev.zio" %% "zio-test-sbt" % "1.0.10" % Test
     )
   , testFrameworks += new TestFramework("zio.test.sbt.ZTestFramework")
-  , scalaVersion := "3.1.0-RC2"
-  , crossScalaVersions := "3.1.0-RC2" :: "2.13.6" :: Nil
+  , scalaVersion := "3.1.1"
+  , crossScalaVersions := "3.1.1" :: "2.13.8" :: Nil
   , scalacOptions += "-nowarn"
   )
 

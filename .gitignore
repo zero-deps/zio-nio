@@ -3,3 +3,7 @@
 /.java-version
 target/
 .DS_Store
+.metals
+.vscode
+.bloop
+**/metals.sbt
